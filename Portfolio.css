@@ -1,8 +1,9 @@
 body {
-    background-image: url('./images/pexels-pixabay-355887.jpg');    
+    background-image: url('./images/pexels-tommy-haugsveen-1361215.jpg');    
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 30px;
 }
 header {
     color: #dbd1f6;
@@ -19,7 +20,7 @@ header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .intro h1 {
-    color: #3d1755;
+    color: #6f3693;
     font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -63,24 +64,53 @@ a:hover:after {
     width: 100%; 
     left: 0; 
 }
-.explore {
-    color: #e4dff5;
-    font-weight: bolder;
-    font-size: 15px;
-    background-color: rgb(161, 123, 236);
-    padding:15px 40px 15px 40px;
-    border-radius: 4px;
-    border: none;
+.about {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    opacity: 0.7; 
+    border-radius: 10px;
 }
-.explore:hover {
-    color:#e4dff5;
-    background-color:rgb(179, 142, 255) ;
+.education {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 40px;
+    opacity: 0.7; 
 }
-.first {
-    display: flex;
-    justify-content: space-between;
+.projects {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    margin-top: 40px;
+    border-radius: 10px;
+    opacity: 0.7; 
+}
+.contact {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    margin-top: 40px;
+    border-radius: 10px;
+    opacity: 0.7; 
 }
 .img {
-    margin-top: 20vh;
-    margin-right: 10vh;
+    margin-left: 30px;
 }
